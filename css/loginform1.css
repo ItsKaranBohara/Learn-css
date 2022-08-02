@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+body {
+  background-color: #3ab4f2;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+form {
+  background: #fff;
+  padding: 3em;
+  height: 320px;
+  border-radius: 20px;
+  box-shadow: 20px 20px 80px -0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+}
+form p {
+  color: #000;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+form a {
+  text-decoration: none;
+  color: rgb(0, 34, 229);
+  font-size: 12px;
+}
+form input {
+  background: transparent;
+  width: 280px;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-radius: 5000px;
+  box-shadow: 4px 4px 20px rgba(108, 106, 106, 0.2);
+  color: #000;
+  font-weight: 500;
+}
+form input:hover {
+  background: rgba(213, 199, 199, 0.094);
+}
+form input[type="button"] {
+  margin-top: 10px;
+  width: 150px;
+}
+form input[type="button"]:hover {
+  cursor: pointer;
+}
+form:hover {
+  margin: 4px;
+}
+.drop {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+.drop-1 {
+  height: 80px;
+  width: 80px;
+  top: -20px;
+  left: -40px;
+}
+.drop-2 {
+  height: 80px;
+  width: 80px;
+  bottom: -25px;
+  right: -40px;
+}
+.drop-4 {
+  height: 80px;
+  width: 80px;
+  top: -20px;
+  right: -40px;
+}
+.drop-5 {
+  height: 80px;
+  width: 80px;
+  bottom: -25px;
+  left: -40px;
+  /* z-index: -1; */
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

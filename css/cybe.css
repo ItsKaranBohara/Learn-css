@@ -1,0 +1,64 @@
+nav {
+  font-size: 28px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  box-shadow: 0 10px 20px #00000050;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid red;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.5s;
+  bottom: 0;
+}
+/* underline effeccts */
+nav ul li a:hover:after {
+  width: 100%;
+}
+.btn {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #fd4766;
+  border: 2px solid #fd4766;
+}
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+  color: #fd4766;
+}
+
+@media only screen and (max-width: 767px) {
+}
